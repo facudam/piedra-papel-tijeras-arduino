@@ -81,18 +81,18 @@ void jugarJuego() {
         Serial.println("EMPATE!");
         Serial.println(" ");
       } else if (
-        (newkey == '1' && eleccionMaquina == '3') || // Piedra gana a Tijeras
-        (newkey == '2' && eleccionMaquina == '1') || // Papel gana a Piedra
-        (newkey == '3' && eleccionMaquina == '2')    // Tijeras gana a Papel
+        (newkey == '1' && eleccionMaquina == '3') || 
+        (newkey == '2' && eleccionMaquina == '1') || 
+        (newkey == '3' && eleccionMaquina == '2')
       ) {
         Serial.println(" ");
         Serial.println("GANASTE!");
         Serial.println(" ");
         puntosJugador++;
       } else if (
-        (newkey == '1' && eleccionMaquina == '2') || // Piedra gana a Tijeras
-        (newkey == '2' && eleccionMaquina == '3') || // Papel gana a Piedra
-        (newkey == '3' && eleccionMaquina == '1')    // Tijeras gana a Papel
+        (newkey == '1' && eleccionMaquina == '2') || 
+        (newkey == '2' && eleccionMaquina == '3') || 
+        (newkey == '3' && eleccionMaquina == '1')
       )
       {
         Serial.println(" ");
