@@ -64,5 +64,3 @@ Además, el informe deberá incluir:
 6. **Bibliografía consultada**
 
 ---
-
-> ✅ **Consejo:** Usá diagramas claros y comentarios en el código para facilitar la comprensión por parte del lector y del docente evaluador.
